@@ -1,0 +1,78 @@
+body {
+  background-color: black;
+}
+
+h1 {
+    Color: rgb(0,100,0);
+}
+
+p.Texto-uno {
+    Color: rgb(255,255,255)
+}
+
+p.Texto-uno {
+    border-style: ridge;
+    border-width: 3px;
+    border-color: rgb(0,100,0)
+}
+
+p.Texto-uno {
+    padding: 10px;
+}
+
+h1 {
+    animation: blinker 5s linear infinite;
+}
+
+@keyframes blinker {
+    50% { opacity: 0; }
+}
+
+h2 {
+    color: rgb(0, 100, 0);
+}
+
+ol {
+    color: rgb(0, 100, 0);
+    font-weight: bold;
+}
+ol li {
+    color: white;
+}
+
+blockquote {
+    color: rgb(0, 100, 0);
+    font-style: italic;
+}
+
+p.Ideas{
+    Color: White;
+    padding: 10px;
+    border-style: ridge;
+    border-width: 3px;
+    border-color: rgb(0, 100, 0);
+}
+
+p.Iam {
+    color: rgb(0, 100, 0);
+    padding: 10px;
+    Animation: blinker 6s linear infinite;
+}
+
+@keyframes blinker {
+    50% { opacity: 0; }
+}
+
+p.more{
+    Color: white;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color:rgb(0, 100, 0);
+}
+
+.scroll-container {
+  width: 300px;
+  height: 200px;
+  overflow: auto;
+  border: 1px solid rgb(0, 100, 0);
+  color:rgb(0, 100, 0)
+}
